@@ -1,4 +1,4 @@
-import { Product } from "@prisma/client"
+import { Product } from "@/types"
 import ProductCard from "./product-card"
 
 const ProductList = ({ data, title, limit }: { data: Product[]; title?: string; limit?: number }) => {
